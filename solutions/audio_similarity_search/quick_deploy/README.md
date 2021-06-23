@@ -2,7 +2,7 @@
 
 ## Overview
 
-This demo uses PANNs, which is a pretrained audio neural network model, and Milvus to build a system that can perform audio searches.
+This demo uses PANNs, which is a pretrained audio neural network model, along with Milvus, our vector databse and vector similarity search engine, to build a system that can perform audio searches.
 
 PANNs source: https://github.com/qiuqiangkong/audioset_tagging_cnn
 
@@ -87,7 +87,7 @@ $ python main.py
 
 Type 127.0.0.1:5000/docs in your browser to see all the APIs.
 
-[img] (all_API.png)
+<img src="pic/all_API.png" width = "650" height = "500" alt="arch" align=center />
 
 - **Code  structure**
 
@@ -122,10 +122,10 @@ You can also use the docs page to test API requests through a user interface.
 
 Loading audio files:
 
-[img] (insert.png)
+<img src="pic/insert.png" width = "650" height = "500" alt="arch" align=center />
 
 Searching audio files:
 
-[img] (search.png)
+<img src="pic/search.png" width = "650" height = "500" alt="arch" align=center />
 
 If you have any questions about Milvus, would like assistance setting up the project, or are interested in learning more about new updates, please join us on our slack channel at http://milvusio.slack.com/
